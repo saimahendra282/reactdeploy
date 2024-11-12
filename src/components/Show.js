@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Show(){
 
     function Deletefun (email) {
-        axios.delete("https://jfsd-spring-hosting-production.up.railway.app/delete", {params:{
+        axios.delete("https://againsping-production.up.railway.app/delete", {params:{
             email: email
         }}).then((res)=>{
             alert(res.data);
